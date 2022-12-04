@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
 body {
     margin: 0;
@@ -8,6 +9,35 @@ body {
     height: 100vh;
     overflow: hidden;
     background-color:whitesmoke;
+}
+
+h1 {
+    align-content: center;
+}
+
+.scoreboard {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.player {
+    color: rgb(34, 68, 204);
+    padding-top: 20px;
+    width: 10em;
+    border: 3px solid black;
+    height: 3em;
+    border-radius: 5px;
+}
+
+.computer {
+    color: rgb(211, 54, 54);
+    padding-top: 20px;
+    width: 10em;
+    border: 3px solid black;
+    height: 3em;
+    border-radius: 5px;
 }
 
 .table {
@@ -57,13 +87,18 @@ td {
 }
 
 header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Zen Dots', serif;
     color:slateblue;
     padding-bottom: 10px;
 }
 
 footer {
     font-size: 1.5em;
+    margin-top: 1em;
 }
 
 #git-icon {
