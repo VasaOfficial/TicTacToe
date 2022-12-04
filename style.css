@@ -22,7 +22,7 @@ h1 {
     gap: 20px;
 }
 
-.player {
+.playerBlue {
     color: rgb(34, 68, 204);
     padding-top: 20px;
     width: 10em;
@@ -31,7 +31,7 @@ h1 {
     border-radius: 5px;
 }
 
-.computer {
+.playerRed {
     color: rgb(211, 54, 54);
     padding-top: 20px;
     width: 10em;
@@ -41,18 +41,18 @@ h1 {
 }
 
 .table {
-    width: 7em;
-    height: 50%;
     justify-content: center;
     border-collapse: separate;
-    font-weight: 600;
-    font-size: 5rem;
     padding: 8px;
 }
 
 .box {
+    height: 130px;
+    width: 170px;
     border: 5px gray solid;  
     text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
 }
 
 table tr:first-child td {
@@ -69,10 +69,6 @@ table tr td:first-child {
 
 table tr td:last-child {
     border-right: 0;
-}
-
-td {
-    transition: all 0.3s ease-in;
 }
 
 #reset {
